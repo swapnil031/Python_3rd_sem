@@ -1,0 +1,10 @@
+list1=[1,2,3,4,5,6]
+n=len(list1)
+i=0
+a=0
+while(i<n//2):
+        a=list1[i]
+        list1[i]=list1[-i-1]
+        list1[-i-1]=a
+        i+=1
+print(list1)
