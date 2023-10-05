@@ -1,0 +1,11 @@
+import numpy as np
+a=np.array([[1,2,3],[3,4,5],[5,6,7]])
+print(a)
+print("the minimum along the coloumn is ")
+print(np.min(a,0))
+print('the minimum along the row is')
+print(np.min(a,1))
+print("the minimum in the entire array")
+print(np.min(a))
+print(np.max(a,0))
+print(np.max(a,1))

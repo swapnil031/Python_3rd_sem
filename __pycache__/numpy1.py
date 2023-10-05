@@ -1,0 +1,16 @@
+import numpy as np
+a=np.array([1,2,3])
+#print (a)
+b=np.array([[1,3,6],[2,4,8]])
+c=b.reshape(3,2)
+#print(c)
+#print(b)
+#print(b.shape)
+#print(b.size)
+d=np.arange(15).reshape(3,5)
+#print(d)
+#print(type(d))
+i=np.arange(20)
+i.ndim
+j=i.reshape(2,2,5)
+print(j)
